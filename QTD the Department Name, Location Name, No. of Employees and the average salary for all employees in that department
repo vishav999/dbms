@@ -1,0 +1,1 @@
+select dname, location, count(*) as No_of_employees, abg(salary) from employee E, department D where E.dno=D.dno group by E.dno;
