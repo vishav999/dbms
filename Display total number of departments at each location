@@ -1,0 +1,1 @@
+select location, count(distinct(dno)) as "No of departments" from department group by location;
