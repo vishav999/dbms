@@ -1,0 +1,1 @@
+select E.Ename, D.Dname, E.Dno from employee E, department D where E.dno=D.dno;
