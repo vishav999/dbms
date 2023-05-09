@@ -1,0 +1,1 @@
+select Ename, hire_date, DAYNAME(hire_date) as Starting_Day from employee;
