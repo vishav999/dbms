@@ -1,0 +1,1 @@
+select CONCAT(UPPER(SUBSTRING(Ename, 1, 1)), LOWER(SUBSTRING(Ename, 2, 50))) as Name, LENGTH(Ename) as LENGHT from employee where Ename like "J%" or Ename like "A%" or Ename like "M%";
