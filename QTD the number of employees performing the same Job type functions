@@ -1,0 +1,1 @@
+select job_type, count(Eno) from employee group by  job_type;
