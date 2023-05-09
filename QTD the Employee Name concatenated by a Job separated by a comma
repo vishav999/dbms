@@ -1,0 +1,1 @@
+select CONCAT(E_name, ',', job_type) from employee;
