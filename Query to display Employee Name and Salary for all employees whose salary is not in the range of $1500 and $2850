@@ -1,0 +1,1 @@
+select Ename, salary from employee where salary<1500 or salary>2850;
