@@ -1,0 +1,1 @@
+select Ename, 12*(YEAR(CURDATE())-YEAR(hire_date)) + (MONTH(CURDATE()_MONTH(hire_date)) as Working_Months from employee E, department D where E.dno=D.dno and dname='sales';
