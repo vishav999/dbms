@@ -1,0 +1,1 @@
+select Ename, dno, from employee where dno=2 or dno=4 order by asc;
