@@ -1,0 +1,1 @@
+select Ename, hire_date from employee where hire_date like '2014%';
