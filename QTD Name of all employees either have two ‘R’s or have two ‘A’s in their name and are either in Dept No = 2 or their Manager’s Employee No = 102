@@ -1,0 +1,1 @@
+select Ename, Eno, Dno from employee where Ename like '%r%r%' or '%a%a%' and dno=2 or (job_type="Manager" and Eno=102);
