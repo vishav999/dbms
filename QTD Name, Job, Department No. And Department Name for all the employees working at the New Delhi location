@@ -1,0 +1,1 @@
+select Ename, job_type, E.dno, dname from employee as E, department as D where E.dno=D.dno and location="New Delhi";
