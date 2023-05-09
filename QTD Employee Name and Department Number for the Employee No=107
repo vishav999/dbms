@@ -1,0 +1,1 @@
+select Ename, Dno from employee where Eno=107;
