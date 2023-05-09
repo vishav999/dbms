@@ -1,0 +1,1 @@
+select Ename, hire_date from employee a E, department as D where E.dno=D.dno and Dname=(select Dname from employee, department where employee.dno=department.dno and Ename="Mary") and Ename!="Mary";
