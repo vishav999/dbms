@@ -1,0 +1,1 @@
+select Ename, dno, salary from employee where (dno, salary) in (select dno, salary from employee where commission>0);
